@@ -3,15 +3,15 @@
 
 <header class="">
 	<a href="./">
-		<div class="flex items-center gap-1">
+		<div class="flex gap-1 items-center">
 			<h1
-				class="uppercase relative text-h1 font-serif font-bold outline-2 z-20 text-nowrap"
+				class="relative z-20 font-serif font-bold uppercase text-h1 outline-2 text-nowrap"
 				id="home"
 			>
-				Le Labotannique
+				Le Labotanique
 			</h1>
 			<img class="" src="/flower.svg" alt="" />
 		</div>
-		<p class=" ">Observations et notes sur les plantes d’intérieurs</p>
+		<p class="">Observations et notes sur les plantes d’intérieurs</p>
 	</a>
 </header>
