@@ -38,7 +38,7 @@
 
 <section id="observations" class="mt-8 space-y-2">
 	<h2 class="font-serif text-h2">Observations</h2>
-	<ul class="pl-4 list-disc">
+	<ul class="list-disc md:pl-4">
 		{#if currentArticle}
 			<ul class="pl-4 list-disc">
 				{#each currentArticle.observations as observation}
@@ -50,12 +50,12 @@
 </section>
 
 <section id="sources" class="mt-8 space-y-2">
-	<h2 class="font-serif text-h2">Sources</h2>
+	<h2 class="font-serif text-h2">Sources et liens utiles</h2>
 	<ul class="underline text-blue">
 		{#if currentArticle}
 			<ul class="pl-4 list-disc">
 				{#each currentArticle.sources as source}
-					<li>{source}</li>
+					<li><a target="_blank" href={source}>{source}</a></li>
 				{/each}
 			</ul>
 		{/if}

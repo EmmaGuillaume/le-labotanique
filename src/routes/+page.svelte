@@ -17,7 +17,7 @@
 </section>
 
 <section class="mt-8">
-	<h2 class="mb-4 font-serif text-h2">Liste des ressources</h2>
+	<h2 class="mb-4 font-serif text-h2">Liste des plantes</h2>
 	<div class="flex flex-col gap-8 md:flex-row md:flex-wrap">
 		{#each articles as article}
 			<a href={`/${article.urlTitle}`}>
