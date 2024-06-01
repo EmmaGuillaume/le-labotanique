@@ -11,7 +11,10 @@
 	$: filterArticles();
 
 	const filterArticles = () => {
-		filteredArticles = articles.filter((article) => article.title.includes(searchValue));
+		const lowerCaseSearchValue = searchValue.toLowerCase();
+		filteredArticles = articles.filter((article) =>
+			article.title.toLowerCase().includes(lowerCaseSearchValue)
+		);
 	};
 </script>
 
