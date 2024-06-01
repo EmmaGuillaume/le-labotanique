@@ -28,16 +28,15 @@
 
 <section class="mt-8">
 	<h2 class="mb-4 font-serif text-h2">Liste des plantes</h2>
-
 	<input
 		type="text"
 		bind:value={searchValue}
 		on:input={filterArticles}
-		class="px-2 py-1 w-full border border-black/20 focus:outline-blue"
+		class="px-2 py-1 w-full border md:w-[366px] border-black/20 focus:outline-blue"
 		placeholder="Chercher une plante"
 	/>
 
-	<div class="flex flex-col gap-8 mt-8 md:flex-row md:flex-wrap">
+	<div class="flex flex-col gap-8 mt-8 md:justify-between md:flex-row md:flex-wrap">
 		{#each filteredArticles as article}
 			<a href={`/${article.urlTitle}`}>
 				<Card imgUrl={article.imageUrl} title={article.title} />
