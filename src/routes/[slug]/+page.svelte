@@ -30,7 +30,7 @@
 </section>
 
 <section id="context" class="mt-8 space-y-2">
-	<h2 class="font-serif text-h2">Context</h2>
+	<h2 class="font-serif text-h2">Contexte</h2>
 	<p class="">
 		{currentArticle?.context}
 	</p>
