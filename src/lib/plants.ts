@@ -191,7 +191,7 @@ export const articles: TArticle[] = [
 			"Le caféier appartient à la famille des Rubiacées. La plante est facile à reconnaître à ses feuilles ovales, aux bords ondulés. Quand la plante se sent bien, elle prend rapidement de la hauteur. Si vous la laissez s'en donner à coeur joie, elle reprendra en un clin d'oeil son allure sauvage. Mais avec une petite taille délicatement réalisée, la plante retrouvera rapidement belle allure. Et avec les bons soins apportés, de véritables grains de café pourront apparaître. Dans le salon, le caféier peut atteindre de 2 à 3 mètres de haut. ",
 		imageUrl: '/plants/cafeier.png',
 		context:
-			"Acheté à la Plante pour tous, je ne savais pas ce que c'étatit avant mes recherches. Bon il s'avère que je n'aime pas le café mais cette plante est très chouette. Après l'avoir longtemps oublié, la reprise des arrosages hebdomadaires lui a fait faire pleins de nouvelles feuilles !",
+			"Acheté à la Plante pour tous, je ne savais pas ce que c'était avant mes recherches. Bon il s'avère que je n'aime pas le café mais cette plante est très chouette. Après l'avoir longtemps oublié, la reprise des arrosages hebdomadaires lui a fait faire pleins de nouvelles feuilles !",
 		observations: [
 			"A besoin d'un arrosage hebdomadaire si l'air est sec",
 			'Aime la lumière indirecte'
